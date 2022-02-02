@@ -6,6 +6,10 @@ A sample iOS app supporting [XCUI Tests](https://developer.apple.com/library/con
 
 ## How to run
 
+```
+	pod install
+```
+
 1. Select the device as "Generic iOS device"
 2. Product -> Clean
 3. Build the ipa
