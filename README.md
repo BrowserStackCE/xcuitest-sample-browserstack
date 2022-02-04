@@ -43,6 +43,7 @@ To learn more about accessibility testing, visit the accessibility testing page 
 
 Get the source for the A11yUITests by visiting its [GitHub](https://github.com/rwapp/A11yUITests) repository.
 
-Documents for reference: https://mobilea11y.com/blog/a11yuitests/
-			https://developer.apple.com/documentation/xctest
+Documents for reference: 
+* https://mobilea11y.com/blog/a11yuitests/
+* https://developer.apple.com/documentation/xctest
 
