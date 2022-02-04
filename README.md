@@ -35,7 +35,9 @@ pod install
 
 6. Use the ipa file and zip file you have created using the above steps to run on Browserstack
 
-## Note : Follow [This](https://www.browserstack.com/docs/app-automate/xcuitest/getting-started) for executing the tests on BrowserStack
+## Note : 
+* Follow [This](https://www.browserstack.com/docs/app-automate/xcuitest/getting-started) for executing the tests on BrowserStack
+* There are multiple tests that you can use from A11yUItests used in the `SampleXCUITests/SampleXCUITests.swift` file. Please refer to [this](https://github.com/rwapp/A11yUITests#tests) for the range of tests you can choose from.
 
 ## Links & Resources
 
