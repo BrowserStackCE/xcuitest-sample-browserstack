@@ -65,6 +65,8 @@ class SampleXCUITests: XCTestCase {
         
         //verify that the text entered matches the text view
         XCTAssertEqual(app.staticTexts.element.label, enterText)
-        a11yCheckAllOnScreen()
+            
+        let textField = app.staticTexts.allElementsBoundByIndex
+        a11y(tests: a11yTestSuiteLabels, on: textField)
     }
 }
