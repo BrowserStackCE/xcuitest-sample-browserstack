@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import A11yUITests
 
 class SampleXCUITests: XCTestCase {
         
@@ -43,6 +44,8 @@ class SampleXCUITests: XCTestCase {
         
         //verify that the alert is dismissed
         XCTAssertEqual(app.alerts.count, 0)
+        
+        a11yCheckAllOnScreen()
     }
     
     func testText() {
@@ -62,5 +65,8 @@ class SampleXCUITests: XCTestCase {
         
         //verify that the text entered matches the text view
         XCTAssertEqual(app.staticTexts.element.label, enterText)
+            
+        let textField = app.staticTexts.allElementsBoundByIndex
+        a11y(tests: a11yTestSuiteLabels, on: textField)
     }
 }
